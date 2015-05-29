@@ -11,6 +11,15 @@ $("#calc").click (function() {
   
 });
 
+$("#calc2").click (function() {
+
+	$("#home_screen").fadeOut();
+	
+      location.href = 'diet_ideas.html';
+
+  
+});
+
 $("#detail_btn").click (function () {
 	
 window.location.href =  'more_details.html';
@@ -22,6 +31,9 @@ window.location.href =  'diet.html';
 });
 
 $("#to_mp").click (function () {
-window.location.href = 'home_screen.html';
+window.location.href = 'pages/home_screen.html';
+});
+$("#to_mp1").click (function () {
+alert("jQuery library is loaded!");
 });
 
