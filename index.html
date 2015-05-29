@@ -1,0 +1,50 @@
+<html>
+<head> 
+	<title> Poshn</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/accordian.css">
+	<script src="./script/jquery-2.1.4.min.js"> </script>
+	<script src="./script/accordian.js"> </script>
+</head>
+<body>
+<center id= "splash">
+	<img id= "splash_img" src= "./images/splash_1.png">
+</center>
+<div id = "home_screen">
+	<center id="header">
+			<span id="poshanbhumi">PoshanBhumi</span>
+	</center>
+	<div id="container">
+		<center id="icons">
+			<img id = "calc" src="./images/button2.png">
+			<img id = "calc1" src="./images/haveitems.png">
+			<center>		<img id = "calc2" src="./images/diet_ideas.png"></center>
+		</center>
+	</div>
+	<div id="footer">()) CopyLeft 2015</div>
+	<!-- <div id = "icon-box">
+		<img id = "calc" src="./images/button2.png">
+		<img id = "shadow" src="./images/shadow.png">
+	</div>
+	<p id = "head"> POSHN </p>
+	<p id = "help"> ?</p> -->
+
+</div> <!-- /home_screen -->
+
+<!-- diet calculator div start -->
+
+
+</body>
+
+<script src="./script/index.js"> </script>
+<SCRIPT>
+$("#accordion > li").click(function(){
+
+	if(false == $(this).next().is(':visible')) {
+		$('#accordion > ul').slideUp(200);
+	}
+	$(this).next().slideToggle(200);
+});
+
+</SCRIPT>
+</html>
