@@ -31,9 +31,11 @@ window.location.href =  'diet.html';
 });
 
 $("#to_mp").click (function () {
-window.location.href = 'pages/home_screen.html';
+window.location.href = 'home_screen.html';
 });
+
 $("#to_mp1").click (function () {
-alert("jQuery library is loaded!");
+alert("hello");
 });
+
 
